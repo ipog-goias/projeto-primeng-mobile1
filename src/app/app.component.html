@@ -1,0 +1,9 @@
+<h1>App Component</h1>
+
+<button pButton type="button" label="Show Dialog" icon="pi pi-info-circle" (click)="showDialog()"></button>
+
+<p-dialog header="Detalhes" [(visible)]="display" modal="modal" [closable]="true">
+  <p>Este é um exemplo de di&aacute;logo usando PrimeNg!</p>
+</p-dialog>
+
+<router-outlet />
